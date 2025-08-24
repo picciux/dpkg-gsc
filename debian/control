@@ -1,0 +1,30 @@
+Source: gsc
+Section: misc
+Priority: optional
+Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
+Build-Depends: cmake, debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://www.projectpluto.com/gsc_act.htm
+Rules-Requires-Root: no
+
+Package: gsc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, gsc-data
+Description: Guide Star Catalog (ACT recalibration)
+ GSC-ACT is a recalibration of previous Guide Star Catalof (GSC) v. 1.1
+ using the ACT (Astrographic Catalog/Tycho) data from the US Naval Observatory
+ to obtain a lower sistematic error.
+ .
+ This package contains the binary files.
+
+Package: gsc-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Guide Star Catalog (ACT recalibration)
+ GSC-ACT is a recalibration of previous Guide Star Catalof (GSC) v. 1.1
+ using the ACT (Astrographic Catalog/Tycho) data from the US Naval Observatory
+ to obtain a lower sistematic error.
+ .
+ This package contains the arch-independent data files.

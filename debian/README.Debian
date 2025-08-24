@@ -1,0 +1,5 @@
+gsc for Debian
+
+This is a repackaging for bookworm of the GSC-ACT, originally distributed on CD-ROM by Project Pluto (https://www.projectpluto.com/gsc_act.htm) and hosted by Jasem Mutlaq <mutlawja@ikarustech.com> at https://git.launchpad.net/gsc. The source patch is only a trivial modification to make the data path (originally /usr/share/GSC) all lowercase, to match package name.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Sun, 24 Aug 2025 13:53:38 +0000
